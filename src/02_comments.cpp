@@ -1,4 +1,4 @@
-// comments.cpp -- displays a message
+// 02_comments.cpp -- add comment to the code
 
 #include <iostream>
 

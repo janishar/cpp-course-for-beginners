@@ -8,7 +8,7 @@
 			"args": [
 				"-std=c++17",
 				"-stdlib=libc++",
-				"src/03_variable_declaration.cpp",
+				"src/04_keyboard_input.cpp",
 				"-o",
 				"build/program",
 				"--debug"
