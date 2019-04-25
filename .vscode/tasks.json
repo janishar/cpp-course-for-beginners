@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build with Clang",
+			"type": "shell",
+			"command": "clang++",
+			"args": [
+				"-std=c++17",
+				"-stdlib=libc++",
+				"src/*.cpp",
+				"-o",
+				"build/program",
+				"--debug"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"dependsOn": [
+				"Create build directory"
+			]
+		},
+		{
+			"label": "Create build directory",
+			"type": "shell",
+			"command": "mkdir -p build",
+			"group": "build"
+		},
+		{
+			"label": "Run with Clang",
+			"type": "shell",
+			"command": "./build/program",
+			"args": [],
+			"problemMatcher": []
+		}
+	]
+}
