@@ -4,8 +4,8 @@
 
 int main()                                    // function header
 {                                             // start of function body
-	using namespace std;                      // make definitions visible
-	cout << "Hey! I am your first program";   // start a new line
-	cout << endl;                             // message
-	return 0;                                 // terminate main()
+    using namespace std;                      // make definitions visible
+    cout << "Hey! I am your first program";   // start a new line
+    cout << endl;                             // message
+    return 0;                                 // terminate main()
 }                                             // end of function body
