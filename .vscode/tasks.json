@@ -8,7 +8,7 @@
 			"args": [
 				"-std=c++17",
 				"-stdlib=libc++",
-				"src/07_user_defined_functions_with_return.cpp",
+				"src/08_user_defined_functions_multiple_arguments.cpp",
 				"-o",
 				"build/program",
 				"--debug"
