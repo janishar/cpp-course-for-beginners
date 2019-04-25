@@ -19,7 +19,8 @@
 			},
 			"dependsOn": [
 				"Create build directory"
-			]
+			],
+			"problemMatcher": []
 		},
 		{
 			"label": "Create build directory",

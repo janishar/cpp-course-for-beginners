@@ -2,6 +2,7 @@
 	"files.associations": {
 		"*.html": "django-html",
 		"*.js": "javascriptreact",
-		"vector": "cpp"
+		"vector": "cpp",
+		"ostream": "cpp"
 	}
 }
