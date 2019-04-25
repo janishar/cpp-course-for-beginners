@@ -8,7 +8,7 @@
 			"args": [
 				"-std=c++17",
 				"-stdlib=libc++",
-				"src/*.cpp",
+				"src/03_variable_declaration.cpp",
 				"-o",
 				"build/program",
 				"--debug"
